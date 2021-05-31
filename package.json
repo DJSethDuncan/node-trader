@@ -1,0 +1,21 @@
+{
+  "name": "node-trader",
+  "version": "0.1.0",
+  "description": "A yankee trader type game in node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seth Duncan",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "dotenv": "^10.0.0",
+    "faker": "^5.5.3",
+    "uuid": "^8.3.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
