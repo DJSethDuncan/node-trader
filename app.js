@@ -8,4 +8,3 @@ let mapSystems = activeGalaxy.getSystemIds();
 
 // initialize player
 let player = new Player(mapSystems[Math.floor(Math.random() * mapSystems.length)]);
-
