@@ -6,7 +6,7 @@ This is a simple trading game in the style of Trade Wars.
 
 * clone the repository
 * run `npm i`
-* run `node start`
+* run `npm start`
 
 This will generate all the files you need and give you a basic command line instance to interact with.
 
