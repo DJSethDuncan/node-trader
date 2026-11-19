@@ -11,6 +11,16 @@ This is a simple trading game in the style of Trade Wars.
 
 This will generate all the files you need and give you a basic command line instance to interact with.
 
+### Command Line Options
+
+Pass options after `--` so npm forwards them to the game:
+
+* `npm start -- --genesis` deletes the saved galaxy and player in `./files`, then generates a new galaxy
+* `npm start -- --debug` prints `[debug]` logs while generating, loading and playing
+* `npm start -- --help` lists the options and exits
+
+Options can be combined, for example `npm start -- --genesis --debug`. An unknown option prints the list and exits with code 1.
+
 ### How to Play Node Trader
 
 At the moment you can barely do anything, but you can type `help` to get started and see what you can see
